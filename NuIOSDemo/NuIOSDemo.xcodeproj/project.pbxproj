@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B670BED115F91494001B4160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670BED015F91494001B4160 /* UIKit.framework */; };
+		B670BED315F91494001B4160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670BED215F91494001B4160 /* Foundation.framework */; };
+		B670BED515F91494001B4160 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670BED415F91494001B4160 /* CoreGraphics.framework */; };
+		B670BEDB15F91494001B4160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B670BED915F91494001B4160 /* InfoPlist.strings */; };
+		B670BEDD15F91494001B4160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B670BEDC15F91494001B4160 /* main.m */; };
+		B670BEE115F91494001B4160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B670BEE015F91494001B4160 /* AppDelegate.m */; };
+		B670BF0315F914D2001B4160 /* ffi.c in Sources */ = {isa = PBXBuildFile; fileRef = B670BEE815F914D2001B4160 /* ffi.c */; };
+		B670BF0415F914D2001B4160 /* ffi.S in Sources */ = {isa = PBXBuildFile; fileRef = B670BEEA15F914D2001B4160 /* ffi.S */; };
+		B670BF0515F914D2001B4160 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B670BEEB15F914D2001B4160 /* LICENSE */; };
+		B670BF0615F914D2001B4160 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = B670BEEC15F914D2001B4160 /* README.markdown */; };
+		B670BF0715F914D2001B4160 /* beautify.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEEE15F914D2001B4160 /* beautify.nu */; };
+		B670BF0815F914D2001B4160 /* bridgesupport.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEEF15F914D2001B4160 /* bridgesupport.nu */; };
+		B670BF0915F914D2001B4160 /* cblocks.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF015F914D2001B4160 /* cblocks.nu */; };
+		B670BF0A15F914D2001B4160 /* cocoa.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF115F914D2001B4160 /* cocoa.nu */; };
+		B670BF0B15F914D2001B4160 /* console.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF215F914D2001B4160 /* console.nu */; };
+		B670BF0C15F914D2001B4160 /* coredata.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF315F914D2001B4160 /* coredata.nu */; };
+		B670BF0D15F914D2001B4160 /* doc.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF415F914D2001B4160 /* doc.nu */; };
+		B670BF0E15F914D2001B4160 /* fscript.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF515F914D2001B4160 /* fscript.nu */; };
+		B670BF0F15F914D2001B4160 /* generate.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF615F914D2001B4160 /* generate.nu */; };
+		B670BF1015F914D2001B4160 /* help.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF715F914D2001B4160 /* help.nu */; };
+		B670BF1115F914D2001B4160 /* match.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF815F914D2001B4160 /* match.nu */; };
+		B670BF1215F914D2001B4160 /* math.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEF915F914D2001B4160 /* math.nu */; };
+		B670BF1315F914D2001B4160 /* menu.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEFA15F914D2001B4160 /* menu.nu */; };
+		B670BF1415F914D2001B4160 /* nibtools.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEFB15F914D2001B4160 /* nibtools.nu */; };
+		B670BF1515F914D2001B4160 /* nu.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEFC15F914D2001B4160 /* nu.nu */; };
+		B670BF1615F914D2001B4160 /* template.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEFD15F914D2001B4160 /* template.nu */; };
+		B670BF1715F914D2001B4160 /* test.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BEFE15F914D2001B4160 /* test.nu */; };
+		B670BF1815F914D2001B4160 /* Nu.m in Sources */ = {isa = PBXBuildFile; fileRef = B670BF0115F914D2001B4160 /* Nu.m */; };
+		B670BF1915F914D2001B4160 /* Nu.o in Frameworks */ = {isa = PBXBuildFile; fileRef = B670BF0215F914D2001B4160 /* Nu.o */; };
+		B670BF1B15F91567001B4160 /* main.nu in Resources */ = {isa = PBXBuildFile; fileRef = B670BF1A15F91567001B4160 /* main.nu */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B670BECC15F91494001B4160 /* NuIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B670BED015F91494001B4160 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B670BED215F91494001B4160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B670BED415F91494001B4160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B670BED815F91494001B4160 /* NuIOSDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NuIOSDemo-Info.plist"; sourceTree = "<group>"; };
+		B670BEDA15F91494001B4160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B670BEDC15F91494001B4160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B670BEDE15F91494001B4160 /* NuIOSDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NuIOSDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B670BEDF15F91494001B4160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B670BEE015F91494001B4160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B670BEE815F914D2001B4160 /* ffi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi.c; sourceTree = "<group>"; };
+		B670BEE915F914D2001B4160 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		B670BEEA15F914D2001B4160 /* ffi.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = ffi.S; sourceTree = "<group>"; };
+		B670BEEB15F914D2001B4160 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B670BEEC15F914D2001B4160 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		B670BEEE15F914D2001B4160 /* beautify.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beautify.nu; sourceTree = "<group>"; };
+		B670BEEF15F914D2001B4160 /* bridgesupport.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bridgesupport.nu; sourceTree = "<group>"; };
+		B670BEF015F914D2001B4160 /* cblocks.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cblocks.nu; sourceTree = "<group>"; };
+		B670BEF115F914D2001B4160 /* cocoa.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cocoa.nu; sourceTree = "<group>"; };
+		B670BEF215F914D2001B4160 /* console.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = console.nu; sourceTree = "<group>"; };
+		B670BEF315F914D2001B4160 /* coredata.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coredata.nu; sourceTree = "<group>"; };
+		B670BEF415F914D2001B4160 /* doc.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doc.nu; sourceTree = "<group>"; };
+		B670BEF515F914D2001B4160 /* fscript.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fscript.nu; sourceTree = "<group>"; };
+		B670BEF615F914D2001B4160 /* generate.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate.nu; sourceTree = "<group>"; };
+		B670BEF715F914D2001B4160 /* help.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.nu; sourceTree = "<group>"; };
+		B670BEF815F914D2001B4160 /* match.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = match.nu; sourceTree = "<group>"; };
+		B670BEF915F914D2001B4160 /* math.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = math.nu; sourceTree = "<group>"; };
+		B670BEFA15F914D2001B4160 /* menu.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menu.nu; sourceTree = "<group>"; };
+		B670BEFB15F914D2001B4160 /* nibtools.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nibtools.nu; sourceTree = "<group>"; };
+		B670BEFC15F914D2001B4160 /* nu.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nu.nu; sourceTree = "<group>"; };
+		B670BEFD15F914D2001B4160 /* template.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = template.nu; sourceTree = "<group>"; };
+		B670BEFE15F914D2001B4160 /* test.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.nu; sourceTree = "<group>"; };
+		B670BF0015F914D2001B4160 /* Nu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nu.h; sourceTree = "<group>"; };
+		B670BF0115F914D2001B4160 /* Nu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nu.m; sourceTree = "<group>"; };
+		B670BF0215F914D2001B4160 /* Nu.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Nu.o; sourceTree = "<group>"; };
+		B670BF1A15F91567001B4160 /* main.nu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.nu; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B670BEC915F91494001B4160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B670BED115F91494001B4160 /* UIKit.framework in Frameworks */,
+				B670BED315F91494001B4160 /* Foundation.framework in Frameworks */,
+				B670BED515F91494001B4160 /* CoreGraphics.framework in Frameworks */,
+				B670BF1915F914D2001B4160 /* Nu.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B670BEC115F91494001B4160 = {
+			isa = PBXGroup;
+			children = (
+				B670BED615F91494001B4160 /* NuIOSDemo */,
+				B670BECF15F91494001B4160 /* Frameworks */,
+				B670BECD15F91494001B4160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B670BECD15F91494001B4160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B670BECC15F91494001B4160 /* NuIOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B670BECF15F91494001B4160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B670BED015F91494001B4160 /* UIKit.framework */,
+				B670BED215F91494001B4160 /* Foundation.framework */,
+				B670BED415F91494001B4160 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B670BED615F91494001B4160 /* NuIOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B670BEE715F914D2001B4160 /* libffi */,
+				B670BEED15F914D2001B4160 /* nu */,
+				B670BEFF15F914D2001B4160 /* objc */,
+				B670BEDF15F91494001B4160 /* AppDelegate.h */,
+				B670BEE015F91494001B4160 /* AppDelegate.m */,
+				B670BED715F91494001B4160 /* Supporting Files */,
+				B670BF1A15F91567001B4160 /* main.nu */,
+			);
+			path = NuIOSDemo;
+			sourceTree = "<group>";
+		};
+		B670BED715F91494001B4160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B670BED815F91494001B4160 /* NuIOSDemo-Info.plist */,
+				B670BED915F91494001B4160 /* InfoPlist.strings */,
+				B670BEDC15F91494001B4160 /* main.m */,
+				B670BEDE15F91494001B4160 /* NuIOSDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B670BEE715F914D2001B4160 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				B670BEE815F914D2001B4160 /* ffi.c */,
+				B670BEE915F914D2001B4160 /* ffi.h */,
+				B670BEEA15F914D2001B4160 /* ffi.S */,
+				B670BEEB15F914D2001B4160 /* LICENSE */,
+				B670BEEC15F914D2001B4160 /* README.markdown */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		B670BEED15F914D2001B4160 /* nu */ = {
+			isa = PBXGroup;
+			children = (
+				B670BEEE15F914D2001B4160 /* beautify.nu */,
+				B670BEEF15F914D2001B4160 /* bridgesupport.nu */,
+				B670BEF015F914D2001B4160 /* cblocks.nu */,
+				B670BEF115F914D2001B4160 /* cocoa.nu */,
+				B670BEF215F914D2001B4160 /* console.nu */,
+				B670BEF315F914D2001B4160 /* coredata.nu */,
+				B670BEF415F914D2001B4160 /* doc.nu */,
+				B670BEF515F914D2001B4160 /* fscript.nu */,
+				B670BEF615F914D2001B4160 /* generate.nu */,
+				B670BEF715F914D2001B4160 /* help.nu */,
+				B670BEF815F914D2001B4160 /* match.nu */,
+				B670BEF915F914D2001B4160 /* math.nu */,
+				B670BEFA15F914D2001B4160 /* menu.nu */,
+				B670BEFB15F914D2001B4160 /* nibtools.nu */,
+				B670BEFC15F914D2001B4160 /* nu.nu */,
+				B670BEFD15F914D2001B4160 /* template.nu */,
+				B670BEFE15F914D2001B4160 /* test.nu */,
+			);
+			path = nu;
+			sourceTree = "<group>";
+		};
+		B670BEFF15F914D2001B4160 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				B670BF0015F914D2001B4160 /* Nu.h */,
+				B670BF0115F914D2001B4160 /* Nu.m */,
+				B670BF0215F914D2001B4160 /* Nu.o */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B670BECB15F91494001B4160 /* NuIOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B670BEE415F91494001B4160 /* Build configuration list for PBXNativeTarget "NuIOSDemo" */;
+			buildPhases = (
+				B670BEC815F91494001B4160 /* Sources */,
+				B670BEC915F91494001B4160 /* Frameworks */,
+				B670BECA15F91494001B4160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuIOSDemo;
+			productName = NuIOSDemo;
+			productReference = B670BECC15F91494001B4160 /* NuIOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B670BEC315F91494001B4160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kelvin Pompey";
+			};
+			buildConfigurationList = B670BEC615F91494001B4160 /* Build configuration list for PBXProject "NuIOSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B670BEC115F91494001B4160;
+			productRefGroup = B670BECD15F91494001B4160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B670BECB15F91494001B4160 /* NuIOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B670BECA15F91494001B4160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B670BEDB15F91494001B4160 /* InfoPlist.strings in Resources */,
+				B670BF0515F914D2001B4160 /* LICENSE in Resources */,
+				B670BF0615F914D2001B4160 /* README.markdown in Resources */,
+				B670BF0715F914D2001B4160 /* beautify.nu in Resources */,
+				B670BF0815F914D2001B4160 /* bridgesupport.nu in Resources */,
+				B670BF0915F914D2001B4160 /* cblocks.nu in Resources */,
+				B670BF0A15F914D2001B4160 /* cocoa.nu in Resources */,
+				B670BF0B15F914D2001B4160 /* console.nu in Resources */,
+				B670BF0C15F914D2001B4160 /* coredata.nu in Resources */,
+				B670BF0D15F914D2001B4160 /* doc.nu in Resources */,
+				B670BF0E15F914D2001B4160 /* fscript.nu in Resources */,
+				B670BF0F15F914D2001B4160 /* generate.nu in Resources */,
+				B670BF1015F914D2001B4160 /* help.nu in Resources */,
+				B670BF1115F914D2001B4160 /* match.nu in Resources */,
+				B670BF1215F914D2001B4160 /* math.nu in Resources */,
+				B670BF1315F914D2001B4160 /* menu.nu in Resources */,
+				B670BF1415F914D2001B4160 /* nibtools.nu in Resources */,
+				B670BF1515F914D2001B4160 /* nu.nu in Resources */,
+				B670BF1615F914D2001B4160 /* template.nu in Resources */,
+				B670BF1715F914D2001B4160 /* test.nu in Resources */,
+				B670BF1B15F91567001B4160 /* main.nu in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B670BEC815F91494001B4160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B670BEDD15F91494001B4160 /* main.m in Sources */,
+				B670BEE115F91494001B4160 /* AppDelegate.m in Sources */,
+				B670BF0315F914D2001B4160 /* ffi.c in Sources */,
+				B670BF0415F914D2001B4160 /* ffi.S in Sources */,
+				B670BF1815F914D2001B4160 /* Nu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B670BED915F91494001B4160 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B670BEDA15F91494001B4160 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B670BEE215F91494001B4160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B670BEE315F91494001B4160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B670BEE515F91494001B4160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NuIOSDemo/NuIOSDemo-Prefix.pch";
+				INFOPLIST_FILE = "NuIOSDemo/NuIOSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B670BEE615F91494001B4160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NuIOSDemo/NuIOSDemo-Prefix.pch";
+				INFOPLIST_FILE = "NuIOSDemo/NuIOSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B670BEC615F91494001B4160 /* Build configuration list for PBXProject "NuIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B670BEE215F91494001B4160 /* Debug */,
+				B670BEE315F91494001B4160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B670BEE415F91494001B4160 /* Build configuration list for PBXNativeTarget "NuIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B670BEE515F91494001B4160 /* Debug */,
+				B670BEE615F91494001B4160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B670BEC315F91494001B4160 /* Project object */;
+}
